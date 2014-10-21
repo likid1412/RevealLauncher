@@ -12,6 +12,7 @@
 		C6C3540B19F68F1B007D5ADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C3540A19F68F1B007D5ADC /* Images.xcassets */; };
 		C6C3540E19F68F1B007D5ADC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C3540C19F68F1B007D5ADC /* MainMenu.xib */; };
 		C6C3541A19F68F1B007D5ADC /* RevealLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3541919F68F1B007D5ADC /* RevealLauncherTests.m */; };
+		C6C3543019F6921F007D5ADC /* libHookReveal.dylib in Resources */ = {isa = PBXBuildFile; fileRef = C6C3542A19F68FE2007D5ADC /* libHookReveal.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +22,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = C6C353FF19F68F1B007D5ADC;
 			remoteInfo = RevealLauncher;
+		};
+		C6C3542919F68FE2007D5ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEE2B80919F6637100BBBDBB;
+			remoteInfo = HookReveal;
+		};
+		C6C3542B19F68FE2007D5ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEE2B81419F6637100BBBDBB;
+			remoteInfo = HookRevealTests;
+		};
+		C6C3542E19F691B5007D5ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE2B80819F6637100BBBDBB;
+			remoteInfo = HookReveal;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +57,7 @@
 		C6C3541319F68F1B007D5ADC /* RevealLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevealLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C3541819F68F1B007D5ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6C3541919F68F1B007D5ADC /* RevealLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLauncherTests.m; sourceTree = "<group>"; };
+		C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HookReveal.xcodeproj; path = HookRevealLib/HookReveal.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 		C6C353F719F68F1B007D5ADC = {
 			isa = PBXGroup;
 			children = (
+				C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */,
 				C6C3540219F68F1B007D5ADC /* RevealLauncher */,
 				C6C3541619F68F1B007D5ADC /* RevealLauncherTests */,
 				C6C3540119F68F1B007D5ADC /* Products */,
@@ -111,6 +135,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6C3542519F68FE2007D5ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3542A19F68FE2007D5ADC /* libHookReveal.dylib */,
+				C6C3542C19F68FE2007D5ADC /* HookRevealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +158,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C6C3542F19F691B5007D5ADC /* PBXTargetDependency */,
 			);
 			name = RevealLauncher;
 			productName = RevealLauncher;
@@ -178,6 +212,12 @@
 			mainGroup = C6C353F719F68F1B007D5ADC;
 			productRefGroup = C6C3540119F68F1B007D5ADC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6C3542519F68FE2007D5ADC /* Products */;
+					ProjectRef = C6C3542419F68FE2007D5ADC /* HookReveal.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C6C353FF19F68F1B007D5ADC /* RevealLauncher */,
@@ -186,12 +226,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C6C3542A19F68FE2007D5ADC /* libHookReveal.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libHookReveal.dylib;
+			remoteRef = C6C3542919F68FE2007D5ADC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6C3542C19F68FE2007D5ADC /* HookRevealTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HookRevealTests.xctest;
+			remoteRef = C6C3542B19F68FE2007D5ADC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C6C353FE19F68F1B007D5ADC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6C3540B19F68F1B007D5ADC /* Images.xcassets in Resources */,
+				C6C3543019F6921F007D5ADC /* libHookReveal.dylib in Resources */,
 				C6C3540E19F68F1B007D5ADC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +288,11 @@
 			isa = PBXTargetDependency;
 			target = C6C353FF19F68F1B007D5ADC /* RevealLauncher */;
 			targetProxy = C6C3541419F68F1B007D5ADC /* PBXContainerItemProxy */;
+		};
+		C6C3542F19F691B5007D5ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HookReveal;
+			targetProxy = C6C3542E19F691B5007D5ADC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

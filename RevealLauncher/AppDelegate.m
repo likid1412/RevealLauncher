@@ -15,12 +15,38 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+-(void)bringToFrontApplicationWithBundleIdentifier:(NSString*)inBundleIdentifier
+{
+    // Try to bring the application to front
+    NSArray* appsArray = [NSRunningApplication runningApplicationsWithBundleIdentifier:inBundleIdentifier];
+    if([appsArray count] > 0)
+    {
+        [[appsArray objectAtIndex:0] activateWithOptions:NSApplicationActivateIgnoringOtherApps];
+    }
+
+    // Quit ourself
+    [[NSApplication sharedApplication] terminate:self];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+-(void)launchApplicationWithPath:(NSString*)inPath andBundleIdentifier:(NSString*)inBundleIdentifier
+{
+    if(inPath != nil)
+    {
+        // Run Calculator.app and inject our dynamic library
+        NSString *dyldLibrary = [[NSBundle bundleForClass:[self class]] pathForResource:@"libHookReveal" ofType:@"dylib"];
+        NSString *launcherString = [NSString stringWithFormat:@"DYLD_INSERT_LIBRARIES=\"%@\" \"%@\" &", dyldLibrary, inPath];
+        system([launcherString UTF8String]);
+
+        // Bring it to front after a delay
+        [self performSelector:@selector(bringToFrontApplicationWithBundleIdentifier:) withObject:inBundleIdentifier afterDelay:1.0];
+    }
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    NSString *calculatorPath = @"/Applications/Reveal.app/Contents/MacOS/Reveal";
+    if([[NSFileManager defaultManager] fileExistsAtPath:calculatorPath])
+        [self launchApplicationWithPath:calculatorPath andBundleIdentifier:@"com.ittybittyapps.Reveal"];
 }
 
 @end

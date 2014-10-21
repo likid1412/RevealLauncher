@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE2B80D19F6637100BBBDBB /* HookReveal.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE2B80C19F6637100BBBDBB /* HookReveal.h */; };
+		DEE2B80F19F6637100BBBDBB /* HookReveal.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE2B80E19F6637100BBBDBB /* HookReveal.m */; };
+		DEE2B81519F6637100BBBDBB /* libHookReveal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE2B80919F6637100BBBDBB /* libHookReveal.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE2B81619F6637100BBBDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE2B80119F6637100BBBDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE2B80819F6637100BBBDBB;
+			remoteInfo = HookReveal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE2B80919F6637100BBBDBB /* libHookReveal.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libHookReveal.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE2B80C19F6637100BBBDBB /* HookReveal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookReveal.h; sourceTree = "<group>"; };
+		DEE2B80E19F6637100BBBDBB /* HookReveal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookReveal.m; sourceTree = "<group>"; };
+		DEE2B81419F6637100BBBDBB /* HookRevealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookRevealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE2B81A19F6637100BBBDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE2B80619F6637100BBBDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE2B81119F6637100BBBDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE2B81519F6637100BBBDBB /* libHookReveal.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE2B80019F6637100BBBDBB = {
+			isa = PBXGroup;
+			children = (
+				DEE2B80B19F6637100BBBDBB /* HookReveal */,
+				DEE2B81819F6637100BBBDBB /* HookRevealTests */,
+				DEE2B80A19F6637100BBBDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE2B80A19F6637100BBBDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2B80919F6637100BBBDBB /* libHookReveal.dylib */,
+				DEE2B81419F6637100BBBDBB /* HookRevealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE2B80B19F6637100BBBDBB /* HookReveal */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2B80C19F6637100BBBDBB /* HookReveal.h */,
+				DEE2B80E19F6637100BBBDBB /* HookReveal.m */,
+			);
+			path = HookReveal;
+			sourceTree = "<group>";
+		};
+		DEE2B81819F6637100BBBDBB /* HookRevealTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2B81919F6637100BBBDBB /* Supporting Files */,
+			);
+			path = HookRevealTests;
+			sourceTree = "<group>";
+		};
+		DEE2B81919F6637100BBBDBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2B81A19F6637100BBBDBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DEE2B80719F6637100BBBDBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE2B80D19F6637100BBBDBB /* HookReveal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DEE2B80819F6637100BBBDBB /* HookReveal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE2B81D19F6637100BBBDBB /* Build configuration list for PBXNativeTarget "HookReveal" */;
+			buildPhases = (
+				DEE2B80519F6637100BBBDBB /* Sources */,
+				DEE2B80619F6637100BBBDBB /* Frameworks */,
+				DEE2B80719F6637100BBBDBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HookReveal;
+			productName = HookReveal;
+			productReference = DEE2B80919F6637100BBBDBB /* libHookReveal.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		DEE2B81319F6637100BBBDBB /* HookRevealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE2B82019F6637100BBBDBB /* Build configuration list for PBXNativeTarget "HookRevealTests" */;
+			buildPhases = (
+				DEE2B81019F6637100BBBDBB /* Sources */,
+				DEE2B81119F6637100BBBDBB /* Frameworks */,
+				DEE2B81219F6637100BBBDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE2B81719F6637100BBBDBB /* PBXTargetDependency */,
+			);
+			name = HookRevealTests;
+			productName = HookRevealTests;
+			productReference = DEE2B81419F6637100BBBDBB /* HookRevealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE2B80119F6637100BBBDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yangch;
+				TargetAttributes = {
+					DEE2B80819F6637100BBBDBB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DEE2B81319F6637100BBBDBB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = DEE2B80419F6637100BBBDBB /* Build configuration list for PBXProject "HookReveal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEE2B80019F6637100BBBDBB;
+			productRefGroup = DEE2B80A19F6637100BBBDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE2B80819F6637100BBBDBB /* HookReveal */,
+				DEE2B81319F6637100BBBDBB /* HookRevealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE2B81219F6637100BBBDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE2B80519F6637100BBBDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE2B80F19F6637100BBBDBB /* HookReveal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE2B81019F6637100BBBDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE2B81719F6637100BBBDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE2B80819F6637100BBBDBB /* HookReveal */;
+			targetProxy = DEE2B81619F6637100BBBDBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEE2B81B19F6637100BBBDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEE2B81C19F6637100BBBDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEE2B81E19F6637100BBBDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE2B81F19F6637100BBBDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE2B82119F6637100BBBDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HookRevealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE2B82219F6637100BBBDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HookRevealTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE2B80419F6637100BBBDBB /* Build configuration list for PBXProject "HookReveal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE2B81B19F6637100BBBDBB /* Debug */,
+				DEE2B81C19F6637100BBBDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE2B81D19F6637100BBBDBB /* Build configuration list for PBXNativeTarget "HookReveal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE2B81E19F6637100BBBDBB /* Debug */,
+				DEE2B81F19F6637100BBBDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE2B82019F6637100BBBDBB /* Build configuration list for PBXNativeTarget "HookRevealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE2B82119F6637100BBBDBB /* Debug */,
+				DEE2B82219F6637100BBBDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE2B80119F6637100BBBDBB /* Project object */;
+}
