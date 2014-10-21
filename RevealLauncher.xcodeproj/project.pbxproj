@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6C3540619F68F1B007D5ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3540519F68F1B007D5ADC /* main.m */; };
+		C6C3540919F68F1B007D5ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3540819F68F1B007D5ADC /* AppDelegate.m */; };
+		C6C3540B19F68F1B007D5ADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C3540A19F68F1B007D5ADC /* Images.xcassets */; };
+		C6C3540E19F68F1B007D5ADC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C3540C19F68F1B007D5ADC /* MainMenu.xib */; };
+		C6C3541A19F68F1B007D5ADC /* RevealLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3541919F68F1B007D5ADC /* RevealLauncherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6C3541419F68F1B007D5ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6C353F819F68F1B007D5ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C353FF19F68F1B007D5ADC;
+			remoteInfo = RevealLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6C3540019F68F1B007D5ADC /* RevealLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevealLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C3540419F68F1B007D5ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C3540519F68F1B007D5ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6C3540719F68F1B007D5ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6C3540819F68F1B007D5ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6C3540A19F68F1B007D5ADC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6C3540D19F68F1B007D5ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6C3541319F68F1B007D5ADC /* RevealLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevealLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C3541819F68F1B007D5ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C3541919F68F1B007D5ADC /* RevealLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealLauncherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C353FD19F68F1B007D5ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C3541019F68F1B007D5ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6C353F719F68F1B007D5ADC = {
+			isa = PBXGroup;
+			children = (
+				C6C3540219F68F1B007D5ADC /* RevealLauncher */,
+				C6C3541619F68F1B007D5ADC /* RevealLauncherTests */,
+				C6C3540119F68F1B007D5ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C3540119F68F1B007D5ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3540019F68F1B007D5ADC /* RevealLauncher.app */,
+				C6C3541319F68F1B007D5ADC /* RevealLauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C3540219F68F1B007D5ADC /* RevealLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3540719F68F1B007D5ADC /* AppDelegate.h */,
+				C6C3540819F68F1B007D5ADC /* AppDelegate.m */,
+				C6C3540A19F68F1B007D5ADC /* Images.xcassets */,
+				C6C3540C19F68F1B007D5ADC /* MainMenu.xib */,
+				C6C3540319F68F1B007D5ADC /* Supporting Files */,
+			);
+			path = RevealLauncher;
+			sourceTree = "<group>";
+		};
+		C6C3540319F68F1B007D5ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3540419F68F1B007D5ADC /* Info.plist */,
+				C6C3540519F68F1B007D5ADC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6C3541619F68F1B007D5ADC /* RevealLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3541919F68F1B007D5ADC /* RevealLauncherTests.m */,
+				C6C3541719F68F1B007D5ADC /* Supporting Files */,
+			);
+			path = RevealLauncherTests;
+			sourceTree = "<group>";
+		};
+		C6C3541719F68F1B007D5ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3541819F68F1B007D5ADC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C353FF19F68F1B007D5ADC /* RevealLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C3541D19F68F1B007D5ADC /* Build configuration list for PBXNativeTarget "RevealLauncher" */;
+			buildPhases = (
+				C6C353FC19F68F1B007D5ADC /* Sources */,
+				C6C353FD19F68F1B007D5ADC /* Frameworks */,
+				C6C353FE19F68F1B007D5ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealLauncher;
+			productName = RevealLauncher;
+			productReference = C6C3540019F68F1B007D5ADC /* RevealLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6C3541219F68F1B007D5ADC /* RevealLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C3542019F68F1B007D5ADC /* Build configuration list for PBXNativeTarget "RevealLauncherTests" */;
+			buildPhases = (
+				C6C3540F19F68F1B007D5ADC /* Sources */,
+				C6C3541019F68F1B007D5ADC /* Frameworks */,
+				C6C3541119F68F1B007D5ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6C3541519F68F1B007D5ADC /* PBXTargetDependency */,
+			);
+			name = RevealLauncherTests;
+			productName = RevealLauncherTests;
+			productReference = C6C3541319F68F1B007D5ADC /* RevealLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C353F819F68F1B007D5ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Likid;
+				TargetAttributes = {
+					C6C353FF19F68F1B007D5ADC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C6C3541219F68F1B007D5ADC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C6C353FF19F68F1B007D5ADC;
+					};
+				};
+			};
+			buildConfigurationList = C6C353FB19F68F1B007D5ADC /* Build configuration list for PBXProject "RevealLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C353F719F68F1B007D5ADC;
+			productRefGroup = C6C3540119F68F1B007D5ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C353FF19F68F1B007D5ADC /* RevealLauncher */,
+				C6C3541219F68F1B007D5ADC /* RevealLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C353FE19F68F1B007D5ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C3540B19F68F1B007D5ADC /* Images.xcassets in Resources */,
+				C6C3540E19F68F1B007D5ADC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C3541119F68F1B007D5ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C353FC19F68F1B007D5ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C3540919F68F1B007D5ADC /* AppDelegate.m in Sources */,
+				C6C3540619F68F1B007D5ADC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C3540F19F68F1B007D5ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C3541A19F68F1B007D5ADC /* RevealLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6C3541519F68F1B007D5ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6C353FF19F68F1B007D5ADC /* RevealLauncher */;
+			targetProxy = C6C3541419F68F1B007D5ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6C3540C19F68F1B007D5ADC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C3540D19F68F1B007D5ADC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6C3541B19F68F1B007D5ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6C3541C19F68F1B007D5ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6C3541E19F68F1B007D5ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RevealLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6C3541F19F68F1B007D5ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RevealLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6C3542119F68F1B007D5ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevealLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevealLauncher.app/Contents/MacOS/RevealLauncher";
+			};
+			name = Debug;
+		};
+		C6C3542219F68F1B007D5ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RevealLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevealLauncher.app/Contents/MacOS/RevealLauncher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C353FB19F68F1B007D5ADC /* Build configuration list for PBXProject "RevealLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C3541B19F68F1B007D5ADC /* Debug */,
+				C6C3541C19F68F1B007D5ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C3541D19F68F1B007D5ADC /* Build configuration list for PBXNativeTarget "RevealLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C3541E19F68F1B007D5ADC /* Debug */,
+				C6C3541F19F68F1B007D5ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6C3542019F68F1B007D5ADC /* Build configuration list for PBXNativeTarget "RevealLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C3542119F68F1B007D5ADC /* Debug */,
+				C6C3542219F68F1B007D5ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C353F819F68F1B007D5ADC /* Project object */;
+}
