@@ -21,8 +21,8 @@ IMP sOriginalImp = NULL;
     sOriginalImp = [[self class]
                     repleaseOldClass:@"IBATrialModeReminderPresenter"
                     newClass:NSStringFromClass([self class])
-                    oldMethods:@"showTrialModeSheetForWindow:canDelayContinue:"
-                    newMethods:@"ychshowTrialModeSheetForWindow:canDelayContinue:"];
+                    oldMethods:@"shouldShowTrialModeSheet"
+                    newMethods:@"lk_shouldShowTrialModeSheet"];
 
 }
 
@@ -40,8 +40,9 @@ IMP sOriginalImp = NULL;
     return impOriginal;
 }
 
-- (void)ychshowTrialModeSheetForWindow:(id)arg1 canDelayContinue:(BOOL)arg2
+// reveal V1.6.3
+- (BOOL)lk_shouldShowTrialModeSheet
 {
-    return;
+    return 0;
 }
 @end
