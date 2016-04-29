@@ -461,6 +461,7 @@
 				C6C3541F19F68F1B007D5ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6C3542019F68F1B007D5ADC /* Build configuration list for PBXNativeTarget "RevealLauncherTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				C6C3542219F68F1B007D5ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

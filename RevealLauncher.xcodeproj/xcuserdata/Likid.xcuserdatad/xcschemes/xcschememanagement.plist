@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HookReveal.xcscheme</key>
+		<key>RevealLauncher.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DEE2B80819F6637100BBBDBB</key>
+		<key>C6C353FF19F68F1B007D5ADC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEE2B81319F6637100BBBDBB</key>
+		<key>C6C3541219F68F1B007D5ADC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
